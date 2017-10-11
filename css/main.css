@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i');
 body {
-    background-image: url(../img/Megaland-Landing-Photo.jpg);
-    background-position: center -1700px;
-    background-repeat: no-repeat;
+
+}
+
+.bg_animated {
+background-image: url(../img/Megaland-Landing-Photo.jpg);
+background-position: center -1700px; *
+background-repeat: no-repeat;
+/* background-size: cover; */
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+transform: scale(1.1);
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: none; 
   padding: 0; }
 ul li {
     display: inline-block;
@@ -177,7 +189,7 @@ a:hover {
 .logmegaland {
     display: block;
     margin: 0px auto;
-    max-width: 360px;
+    max-width: 320px;
     width: 100%;
     position: relative;
     top: 30px;
@@ -187,7 +199,7 @@ a:hover {
     text-align: center;
     display: block;
     margin: 0px auto;
-    max-width: 600px;
+    max-width: 620px;
     width: 100%;
     margin-top: 60px;
 }
@@ -196,7 +208,7 @@ a:hover {
     background-color: rgba(255, 66, 240, 0.15);
     padding: 60px 10px;
     text-align: center;
-    margin: 3% 0 0 0;
+    margin: 1% 0 0 0;
     overflow: hidden;
 }
 .videos .row {
@@ -307,6 +319,53 @@ display: block;
     margin-right: 15px;
 }
 
+
+/*** ARTISTAS ***/
+
+.title_section H2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.45);
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+
+.name_art {
+    background-color: #000000;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    position: relative;
+    padding: 10.6px 0px;
+    text-align: left;
+    padding-left: 20px;
+    top: -50px;
+    text-transform: uppercase;
+}
+.cont_art {
+    height: 250px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.name_art .icon {
+    font-size: 30px;
+    text-align: center;
+    background-color: #fe00f6;
+    width: 65px;
+    height: auto;
+    padding: 2px 0px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
 @media (max-width: 1200px) {
   .header .logo img {
     height: 27px; }
@@ -341,6 +400,15 @@ display: block;
  }
 
 @media (max-width: 991px) {
+    .bg_animated {
+        background-attachment: fixed;
+    }
+    .cont_art {
+        height: auto;
+    }
+    .name_art {
+        top: -30px;
+    }
     
     ul li {
     display: inline-block;

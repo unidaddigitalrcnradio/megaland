@@ -39,16 +39,16 @@
 
     </head>
     <body> 
-
+    <div class="bg_animated"></div>
 
 
         <header class=header>  
            <div class=container>           
                 <div class="col-md-12"> 
                     <ul> 
-                        <li><a href="#" class=line>LINE-UP</a></li> 
+                        <li><a href="artistas.php" class=line>LINE-UP</a></li> 
                         <li><a href="#" class=boleteria style="background:none;">BOLETERÍA</a></li> 
-                        <li class="log_desk animated fadeInDown"><a href="#" class=logmegaland><img class="img-responsive" src="img/Logo_megaland_landing.png" alt=""></a></li>
+                        <li class="log_desk animated fadeInDown"><a href="index.php" class=logmegaland><img class="img-responsive" src="img/Logo_megaland_landing.png" alt=""></a></li>
                         <li><a href="#" class=cllegar>CÓMO LLEGAR</a></li>
                         <li><a href="#" class=aliados>ALIADOS</a></li> 
                     </ul>
