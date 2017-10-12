@@ -7,7 +7,7 @@
 
     <div  class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
        <div class="cont_art">
-            <a href="#">
+            <a href="detalle_artistas.php">
                 <img src="img/artistas/Carlos_vives.jpg" alt="" class="img-responsive">
                 <div class="name_art">
                     CARLOS VIVES
@@ -28,6 +28,7 @@
                     DON OMAR
                     <span class="icon">
                         <i class="fa fa-plus" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
                     </span> 
                 </div>
             </a>
@@ -42,6 +43,7 @@
                     YANDEL
                     <span class="icon">
                         <i class="fa fa-plus" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
                     </span> 
                 </div>
             </a>
@@ -56,6 +58,7 @@
                     NICKY JAM
                     <span class="icon">
                         <i class="fa fa-plus" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
                     </span> 
                 </div>
             </a>
@@ -70,6 +73,7 @@
                     CALI Y EL DANDEE
                     <span class="icon">
                         <i class="fa fa-plus" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
                     </span> 
                 </div>
             </a>
@@ -84,6 +88,7 @@
                     SEBASTIÁN YATRA
                     <span class="icon">
                         <i class="fa fa-plus" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
                     </span> 
                 </div>
             </a>
@@ -98,6 +103,7 @@
                     MIKE BAHÍA
                     <span class="icon">
                         <i class="fa fa-plus" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
                     </span> 
                 </div>
             </a>
@@ -112,7 +118,7 @@
                     MANUEL TURIZO
                     <span class="icon">
                         <i class="fa fa-plus" aria-hidden="true"></i>
-                        
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>                        
                     </span> 
                 </div>
             </a>
@@ -126,6 +132,7 @@
                     VALENTINO
                     <span class="icon">
                         <i class="fa fa-plus" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
                     </span> 
                 </div>
             </a>
@@ -140,6 +147,7 @@
                     CHOCQUIBTOWN
                     <span class="icon">
                         <i class="fa fa-plus" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
                     </span> 
                 </div>
             </a>
@@ -154,6 +162,7 @@
                     PIPE PELÁEZ
                     <span class="icon">
                         <i class="fa fa-plus" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
                     </span> 
                 </div>
             </a>
@@ -168,6 +177,7 @@
                     FARINA
                     <span class="icon">
                         <i class="fa fa-plus" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
                     </span> 
                 </div>
             </a>
@@ -182,6 +192,7 @@
                     GREEICY
                     <span class="icon">
                         <i class="fa fa-plus" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
                     </span> 
                 </div>
             </a>
@@ -196,6 +207,7 @@
                     KAROL G
                     <span class="icon">
                         <i class="fa fa-plus" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
                     </span> 
                 </div>
             </a>
@@ -210,6 +222,7 @@
                     DANIEL 3PALACIOS
                     <span class="icon">
                         <i class="fa fa-plus" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
                     </span> 
                 </div>
             </a>
@@ -224,6 +237,7 @@
                     VITA 
                     <span class="icon">
                         <i class="fa fa-plus" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
                     </span> 
                 </div>
             </a>

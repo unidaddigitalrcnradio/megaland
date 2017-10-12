@@ -26,7 +26,8 @@ ul li {
 }
 
 a:hover {
-  text-decoration: none; }
+  text-decoration: none; 
+}
 
 
 .headerCel {
@@ -273,14 +274,52 @@ display: block;
     position: relative;
     top: 5px;
 }
-.cont_art:hover .icon .fa-arrow-right {
+.fa-arrow-right { 
+    opacity: 0;
     position: absolute;
-    text-align: center;
-    width: 60px;
-    left: 0;
-    bottom: -40px;
+    left: 20px;
+    top: 5px;
+    transition: all 0.3s;
+}
+
+.cont_art:hover .fa-plus {
     opacity: 0;
     transition: all 0.3s;
+}
+.cont_art:hover .fa-arrow-right {
+    opacity: 1;
+    transition: all 0.3s;
+}
+.cont_art img {
+    transition: all 0.3s;
+    border: 0px solid transparent;
+}
+.cont_art:hover .name_art .icon {
+    background-color: rgba(254, 0, 246, 0.56);
+}
+.cont_art:hover img {
+    border: 9px solid rgba(254, 0, 246, 0.56);
+    transition: all 0.3s;
+}
+.map img {
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.como_llegar {
+    background-color: rgba(255, 66, 240, 0.15);
+    padding: 60px 10px;
+    text-align: center;
+    margin: 1% 0 0 0;
+    overflow: hidden;
+}
+.como_llegar img {
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    max-width: 1096px;
+    display: block;
+    margin: 0px auto;
 }
 
 .footer {
@@ -376,6 +415,61 @@ display: block;
     right: 0;
     top: 0;
 }
+.como_llegar P {
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ff00f7;
+    text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.45);
+    text-align: center;
+    font-weight: bold;
+}
+#no-permitidos {
+    border-left: 1px solid #ff04f7;
+}
+.como_llegar img:first-child {
+    border-left:0;
+}
+.como_llegar img {
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    max-width: 1096px;
+    display: block;
+    margin: 0px auto;
+
+}
+
+.swiper-container {
+ /* width: 100%;
+    height: 300px;
+    margin: 20px auto;
+    max-width: 1000px; */
+}
+.swiper-slide iframe {
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+}
+.swiper-slide img{
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+}
+.bg_gral {
+    background-color: rgba(255, 66, 240, 0.15);
+    padding: 0 0 0 0;
+}
+.bg_black_all {
+    background-color: black;
+}
+.bg_black_all p {
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff; 
+    text-align: justify;
+    font-weight: normal;
+}
+
 
 @media (max-width: 1200px) {
   .header .logo img {
@@ -414,6 +508,9 @@ display: block;
     .bg_animated {
         background-attachment: fixed;
     }
+    #no-permitidos {
+    border-left: 0;
+}
     .cont_art {
         height: auto;
     }

@@ -5,7 +5,8 @@
     <div class="row">
         <div  class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
          <a href="#">
-          <img id="cent" class="img-responsive" src="img/location_megaland_icon.png" alt="">    
+          <!-- <img id="cent" class="img-responsive" src="img/location_megaland_icon.png" alt="">    -->
+          <img id="cent" class="img-responsive" src="img/instagram_megaland_icon.png" alt="">    
           <p>CÓMO LLEGAR</p> 
           </a>    
         </div>  
@@ -87,7 +88,18 @@
         <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
 <script src="js/lightgallery-all.min.js"></script>
 <script src="js/jquery.mousewheel.min.js"></script>
-
+<!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        // Navigation arrows
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        centeredSlides: true,
+        paginationClickable: true,
+        spaceBetween: 30
+    });
+    </script>
 
 
 </body>
