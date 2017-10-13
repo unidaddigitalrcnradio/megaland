@@ -1,44 +1,12 @@
-//abre script bullets//
 $(document).ready(function() {
-  $(".irEnfoque").click(function() {
-      $('html, body').animate({
-          scrollTop: $("#enfoque").offset().top - 40
-      }, 1000);
-      $('.header').removeClass('active');
-  });
-  $(".irAlcance").click(function() {
-      $('html, body').animate({
-          scrollTop: $("#alcance").offset().top - 40
-      }, 1000);
-      $('.header').removeClass('active');
-  });
-  $(".irMetodologia").click(function() {
-      $('html, body').animate({
-          scrollTop: $("#metodologia").offset().top - 40
-      }, 1000);
-      $('.header').removeClass('active');
-  });
-
-  $(".irCertificaciones").click(function() {
-      $('html, body').animate({
-          scrollTop: $("#certificaciones").offset().top - 40
-      }, 1000);
-      $('.header').removeClass('active');
-  });
-
-  $(".irAliados").click(function() {
+$(".irAliados").click(function() {
       $('html, body').animate({
           scrollTop: $("#aliados").offset().top - 40
       }, 1000);
       $('.header').removeClass('active');
   });
     
-  $(".irContacto, .contactar").click(function() {
-      $('html, body').animate({
-          scrollTop: $("#contacto").offset().top - 40
-      }, 1000);
-      $('.header').removeClass('active');
-  });
+
     $('.hamb').click(function(e){
         e.stopPropagation();
         $('.header').toggleClass('active');

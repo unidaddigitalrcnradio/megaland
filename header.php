@@ -46,11 +46,11 @@
            <div class=container>           
                 <div class="col-md-12"> 
                     <ul> 
-                        <li><a href="artistas.php" class=line>LINE-UP</a></li> 
+                        <li><a href="artistas.php" class=line>ARTISTAS</a></li> 
                         <li><a target="_blank" href="http://vive.tuboleta.com/shows/show.aspx?sh=MEGALAND17" class=boleteria style="background:none;">BOLETERÍA</a></li> 
                         <li class="log_desk animated fadeInDown"><a href="index.php" class=logmegaland><img class="img-responsive" src="img/Logo_megaland_landing.png" alt=""></a></li>
                         <li><a href="comollegar.php" class=cllegar>CÓMO LLEGAR</a></li>
-                        <li><a href="#" class=aliados>ALIADOS</a></li> 
+                        <li><a href="#" class=irAliados>ALIADOS</a></li> 
                     </ul>
                 </div> 
             </div>
@@ -59,7 +59,7 @@
             <div class=container> 
                 <div class="col-xs-8 logo"> 
                     <a href=index.php>
-                        <a href="#" class=logmegaland><img class="img-responsive" src="img/Logo_megaland_landing.png" alt=""></a>
+                        <a href="index.php" class=logmegaland><img class="img-responsive" src="img/Logo_megaland_landing.png" alt=""></a>
                     </a> 
                 </div>
                 <div class="col-xs-4 text-right"> 

@@ -4,10 +4,10 @@
 <div class="iconos_redes">
     <div class="row">
         <div  class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
-         <a href="#">
+         <a target="_blank" href="https://www.instagram.com/lamegacolombia/">
           <!-- <img id="cent" class="img-responsive" src="img/location_megaland_icon.png" alt="">    -->
           <img id="cent" class="img-responsive" src="img/instagram_megaland_icon.png" alt="">    
-          <p>CÓMO LLEGAR</p> 
+          <p>INSTAGRAM</p> 
           </a>    
         </div>  
         <div  class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
@@ -47,7 +47,7 @@
         </div>
     </div>
 </div>
- <footer class=footer>
+ <footer class=footer id=aliados>
   <div class=container>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 redes redesFooter">
          <div class="logo_rcn">
