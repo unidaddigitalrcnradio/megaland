@@ -380,8 +380,8 @@ display: block;
     color: white;
     text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.45);
     font-weight: bold;
-    margin-top: 80px;
-    margin-bottom: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
@@ -450,14 +450,15 @@ display: block;
     display: block;
     margin: 0px auto;
 }
-.swiper-slide img{
+.swiper-slide img {
     width: 90%;
     display: block;
     margin: 0px auto;
 }
 .bg_gral {
     background-color: rgba(255, 66, 240, 0.15);
-    padding: 0 0 0 0;
+    padding: 0 0 50px 0;
+    margin-top: 60px;
 }
 .bg_black_all {
     background-color: black;
@@ -469,6 +470,69 @@ display: block;
     text-align: justify;
     font-weight: normal;
 }
+.wrap_img {
+    height: 175px;
+    overflow: hidden;
+    border-bottom: 3px solid #ff43f0;
+}
+.wrap_img img{
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+}
+.card {
+    display: block;
+    float: left;
+    padding: 10px 15px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+    transition: all .3s;
+    background: #fff;
+}
+.date {
+    color: #50575d;
+    float: left;
+    font-size: 12px;
+    font-weight: 500;
+}
+.card h1 {
+    color: #080008;
+    float: left;
+    font-size: 22px;
+    font-weight: bold;
+    background-image: none;
+    padding: 0;
+    text-align: left;
+    line-height: 1.2;
+    height: 60px;
+    font-family: Oswald,sans-serif;
+    margin: 8px 0 0 0;
+}
+.descript {
+    float: left;
+    overflow: hidden;
+    font-family: Oswald,sans-serif;
+    color: #000;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.3;
+    width: 100%;
+}
+.descript p {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    font-family: Oswald,sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #000;
+    line-height: 1.2;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+
+
 
 
 @media (max-width: 1200px) {

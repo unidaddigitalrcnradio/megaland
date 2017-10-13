@@ -28,8 +28,69 @@
     <div class="container">
       <div class="title_section">
           <h2>NOTAS</h2>  
-        </div>   
-
+        </div>
+         
+        <div  class="col-lg-4 col-md-4 col-xs-12" id="">                       
+            <div class="news">
+                <a href="#">
+                    <div class="wrap_img"> 
+                        <img src="img/carlos1.jpg" alt="">
+                    </div>
+                    <span class="card">
+                        <div class="date">
+                            25 Nov 2017
+                        </div>
+                        <h1>
+                            Carlos Vives, en contra del reguetón y las letras de Maluma
+                        </h1>
+                        <div class="descript">
+                            <p>En entrevista con Clarín, Carlos Vives crítico la música urbana. Afirmó que se trata de un ritmo "con contenido sexual explícito". </p>
+                        </div>
+                    </span>
+                </a>
+            </div> 
+        </div>
+        <div  class="col-lg-4 col-md-4 col-xs-12" id="">                       
+            <div class="news">
+                <a href="#">
+                    <div class="wrap_img"> 
+                        <img src="img/carlos2.jpg" alt="">
+                    </div>
+                    <span class="card">
+                        <div class="date">
+                            25 Nov 2017
+                        </div>
+                        <h1>
+                            Carlos Vives, en contra del reguetón y las letras de Maluma
+                        </h1>
+                        <div class="descript">
+                            <p>En entrevista con Clarín, Carlos Vives crítico la música urbana. Afirmó que se trata de un ritmo "con contenido sexual explícito".</p>
+                        </div>
+                    </span>
+                </a>
+            </div> 
+        </div>
+        <div  class="col-lg-4 col-md-4 col-xs-12" id="">                       
+            <div class="news">
+                <a href="#">
+                    <div class="wrap_img"> 
+                        <img src="img/carlos3.jpg" alt="">
+                    </div>
+                    <span class="card">
+                        <div class="date">
+                            25 Nov 2017
+                        </div>
+                        <h1>
+                            Carlos Vives, en contra del reguetón y las letras de Maluma
+                        </h1>
+                        <div class="descript">
+                            <p>En entrevista con Clarín, Carlos Vives crítico la música urbana. Afirmó que se trata de un ritmo "con contenido sexual explícito". </p>
+                        </div>
+                    </span>
+                </a>
+            </div> 
+        </div>
+        
     </div>
 </div>
 <div class="bg_black_all">
