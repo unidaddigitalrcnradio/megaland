@@ -52,7 +52,16 @@
 <div class="boleteria">
     <div class="row">
        <div class="w30">
-
+    <!-- Code -->
+<div id="cp_widget_c32f0795-e9ae-4b16-87e3-1a878cea1d2b">...</div><script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_c32f0795-e9ae-4b16-87e3-1a878cea1d2b"; cpo["_fid"] = "AINARGeqDu_9";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })(); </script>
+    <!-- /Code -->  
+      
        </div>  
        <div class="w30">
      <img class="img-responsive" src="img/imagen_boleteria_megaland_landing.jpg" alt="">

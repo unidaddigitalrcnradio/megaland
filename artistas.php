@@ -5,6 +5,8 @@
      <h2>ARTISTAS</h2>  
    </div>
 
+   <div class="animated fadeInUp">
+   
     <div  class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
        <div class="cont_art">
             <a href="detalle_artistas.php">
@@ -243,6 +245,9 @@
             </a>
         </div>
     </div>  
+    
+    </div>
+    
 
 </div>
 <br>     

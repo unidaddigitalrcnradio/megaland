@@ -11,7 +11,7 @@
         <link rel=stylesheet href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="css/bootstrap.min.css" rel=stylesheet>
 
-        <!-- <link rel="stylesheet" href="css/animate.css"> -->
+        <link rel="stylesheet" href="css/animate.css">
         <link rel=stylesheet href="css/lightgallery.css" rel="stylesheet">
         <link rel=stylesheet href="css/remodal.css">        
         <link rel=stylesheet href="css/remodal-default-theme.css">

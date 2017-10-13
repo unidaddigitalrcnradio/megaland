@@ -5,7 +5,7 @@
          <h2>CÓMO LLEGAR</h2>  
     </div>
     <div class="map">
-        <img src="img/Mapa-Megaland.jpg" alt="" class="img-responsive">
+        <img src="img/Mapa-Megaland.jpg" alt="" class="img-responsive animated fadeIn">
     </div>
 </div>
     <div class="como_llegar">
