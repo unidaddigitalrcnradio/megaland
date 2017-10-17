@@ -5,7 +5,14 @@
       <img class="img-responsive" src="img/lineup_landing_final.png" alt="">
     </div>
 </div>
+
+   
+<div class="tu_boleta">
+    <a href="#">Consigue tus boletas</a>
+</div>   
+    
      
+         
 <div class="videos">
     <div class="row">  
     <div id="video-gallery">
