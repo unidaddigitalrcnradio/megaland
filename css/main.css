@@ -556,15 +556,20 @@ display: block;
 
 
 
-
-
 @media (max-width: 1200px) {
   .header .logo img {
     height: 27px; }
   .header .menu a {
-    font-size: 14px; } }
+    font-size: 14px; } 
+
+ul li {
+    display: inline-block;
+    margin: 0 20px 0 20px;
+}
+}
 
 @media (max-width: 1024px) {
+    
   .headerCel {
     display: block; }
   .header {
@@ -589,9 +594,23 @@ display: block;
         display: block; }
     .header.active {
       left: 0; }
+    .contentPage {
+        margin-top: 30px;
+    }
+    .title_section H2 {
+    font-size: 30px;
+    margin-top: 55px;
+    margin-bottom: 18px;
+}
  }
 
 @media (max-width: 991px) {
+    .swiper-slide iframe {
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+    height: 405px;
+}
     .bg_animated {
         background-attachment: fixed;
     }
@@ -695,6 +714,8 @@ padding: 0;
     margin: 0px auto;
     width: 80px;
 }
+  
+    
 
 }
 
@@ -703,12 +724,25 @@ padding: 0;
 }
 
 @media (max-width: 520px) {
+.swiper-slide iframe {
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+    height: 245px;
+    }  
 #cent {
     width: 65px;
-}
+    }
 }
 
 @media (max-width: 400px) {
+
+.swiper-slide iframe {
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+    height: 245px;
+}
 .logo_rcn a {
     width: 100%;
     float: left;
