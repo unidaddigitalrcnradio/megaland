@@ -8,7 +8,7 @@
 
    
 <div class="tu_boleta">
-    <a href="#">Consigue tus boletas</a>
+    <a href="http://vive.tuboleta.com/shows/show.aspx?sh=MEGALAND17" target="_blank">Consigue tus boletas</a>
 </div>   
     
      
